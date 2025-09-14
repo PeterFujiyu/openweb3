@@ -1,0 +1,51 @@
+{
+  "name": "wallet-extension",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@plasmohq/messaging": "^0.7.2",
+    "@plasmohq/storage": "^1.15.0",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-portal": "^1.1.9",
+    "@tailwindcss/forms": "^0.5.10",
+    "@types/bip39": "^2.4.2",
+    "autoprefixer": "^10.4.21",
+    "bip39": "^3.1.0",
+    "clsx": "^2.1.1",
+    "ethers": "^5.8.0",
+    "framer-motion": "^12.23.12",
+    "i18next": "^25.5.2",
+    "lucide-react": "^0.544.0",
+    "plasmo": "^0.90.5",
+    "postcss": "^8.5.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-i18next": "^15.7.3",
+    "react-qr-code": "^2.0.18",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^3.4.17",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "class-variance-authority": "^0.7.1",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.39.1",
+    "vite": "^7.1.2"
+  }
+}
